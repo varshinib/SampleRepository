@@ -1,0 +1,43 @@
+html>
+<html>
+	<title>assignment</title>
+	<body>
+		<h1> This is my html file </h1>
+		<form action ="index.html" method="get">
+			First Name :<input type :"text" id ="First name" place holder ="first name" > <br>
+			Last Name :<input type :"text" id ="last name" place holder ="last name" > <br>
+			Numbers only :<input type ="number" name="nmbrsonly" min="1" max="20"> <br>
+			Date:<input type ="date" name ="today_date"> 	
+			Time:<input type ="time" name ="time"> <br>		
+			Quantity :<input type ="number" name ="points" min ="1" max ="50" step ="5" value ="25"> <br>
+			Password :<input type ="password" name ="pwd"> <br>	
+			checkbox :<input type ="checkbox" name ="colorchoser" value="blue"> Blue
+					  <input type ="checkbox" name ="colorchoser" value="red"> Red <br> <br>
+					  	<button name="subject" type="submit" value="submit">submit</button>
+   		</form >	
+			<canvas id="mycanvas" width="500" height="500" style="border:2px solid #070719"> this is my canvas </canvas>
+			<script type="text/javascript ">
+				var a = document.getElementById("mycanvas")
+				var ctx = a.getcontext("2d")
+				ctx.font="30px Arial";
+				ctx.fillText("mycanvas",10.50);
+			</script>
+			<svg width="300" height="200">
+				<polygon points ="100,10 40,198 190,78 10,78 160,198">
+				style = "fill:yellow;stroke:purple;stroke-width:5 fill-rule:evenodd;"/>
+			</svg>
+			<video width ="320" height="240" autoplay>
+			<source src = "C:\Users\Public\Videos\Sample Videos\Wildelife.wmv" type ="video/wmv">	
+			</video>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/MCG2ycuoOg4" frameborder="0" allowfullscreen>
+			</iframe>
+			<iframe src ="https://www.google.com" width = "500" height="500">
+			</iframe>
+			<div class ="panel-body">
+			<div><label><input type ="checkbox" name ="category -1"> catergory </label></div>
+			</div>
+			<p>&euro;</p>
+			<p>&sum;</p>
+			<p>&copy;</p>
+			</body>
+</html>		
